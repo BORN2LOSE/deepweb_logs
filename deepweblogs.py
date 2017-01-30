@@ -53,7 +53,7 @@ class bot():
         print "Total traffic -- " + trf
 
 
-    def save(self,file="astat.txt",timeout=10):
+    def save(self,file="log.txt",timeout=10):
         while True:
             sleep(timeout)
 
